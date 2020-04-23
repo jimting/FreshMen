@@ -1,5 +1,5 @@
 ﻿<?php
-//取得Google公開的表單回覆資料，回傳Json檔
+//TODO : 取得頁面資料，回傳所需資料的Json。
 $url = $_GET['url'];
 $html = file_get_contents($url);
 $dom = new DOMDocument();
